@@ -8,7 +8,7 @@
 
 <table>
  <tr>
-    <td colspan="3"><h3>개발기술</h3></td>
+    <td colspan="3" align="center"><h3>개발기술</h3></td>
   </tr>
   <tr>
     <th align="left">프론트엔드</th>
