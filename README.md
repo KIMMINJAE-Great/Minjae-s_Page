@@ -8,16 +8,16 @@
 
 <table>
  <tr>
-    <td colspan="3">개발기술</td>
+    <td colspan="3"><h3>개발기술</h3></td>
   </tr>
   <tr>
-    <th>프론트엔드</th>
-    <td>Vue.js</td>
-   <td>Bootstrap5</td>
+    <th align="left">프론트엔드</th>
+    <td align="left">Vue.js</td>
+   <td align="left">Bootstrap5</td>
   </tr>
   <tr>
-    <th>백엔드</th>
-    <td>SpringBoot</td>
-   <td>MariaDB</td>
+    <th align="left">백엔드</th>
+    <td align="left">SpringBoot</td>
+   <td align="left">MariaDB</td>
   </tr>
 </table>
