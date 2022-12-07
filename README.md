@@ -6,8 +6,18 @@
 |백엔드|SpringBoot|MariaDB|
 
 
-|제목|내용|설명|
-|------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+<table>
+ <tr>
+    <td colspan="3">개발기술</td>
+  </tr>
+  <tr>
+    <th>프론트엔드</th>
+    <td>Vue.js</td>
+   <td>Bootstrap5</td>
+  </tr>
+  <tr>
+    <th>백엔드</th>
+    <td>SpringBoot</td>
+   <td>MariaDB</td>
+  </tr>
+</table>
