@@ -4,6 +4,7 @@
     <div class="nav-container">
       <Navi :class="classNavi" msg="Header for Your Vue.js App" />
     </div>
+    <!-- 컨텐트 컨테이너 -->
     <div class="content-container">
       <router-view :class="classContent"></router-view>
     </div>
@@ -68,13 +69,16 @@ export default {
 .nav-container{
   display:inline-block;
   float:left;
+  
 }
 .navi {
   margin: 2px;
 }
 .content-container{
   display:inline-block;
+  width:1160px;
   float:left;
+  /* background: yellow; */
 }
 .content {
   min-height: 800px;

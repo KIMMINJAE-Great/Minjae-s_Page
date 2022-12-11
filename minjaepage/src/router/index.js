@@ -3,6 +3,7 @@ import Home from "@/components/Home.vue"
 import Diary from "@/components/Diary.vue"
 import GuestBook from "@/components/GuestBook.vue"
 import Introduce from "@/components/Introduce.vue"
+import Post from "@/components/Post.vue"
 
 
 
@@ -13,6 +14,7 @@ const routes = [
   {path: "/diary", name:"Diary",component: Diary},
   {path: "/guestbook", name:"GuestBook",component: GuestBook},
   {path: "/introduce", name:"Introduce",component: Introduce},
+  {path: "/post", name:"Post",component: Post},
   
   
 ]

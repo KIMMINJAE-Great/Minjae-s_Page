@@ -32,9 +32,16 @@
             <span class="visually-hidden">(current)</span>
           </router-link>
       </li>
+      <li>
       <router-link to="/guestbook" class="nav-link link-dark">방명록
             <span class="visually-hidden">(current)</span>
           </router-link>
+      </li>
+      <li>
+      <router-link to="/post" class="nav-link link-dark">글쓰기
+            <span class="visually-hidden">(current)</span>
+          </router-link>
+      </li>
     </ul>
     <hr>
     <div class="dropdown">
@@ -55,15 +62,13 @@
 
 <script>
 export default {
-name:'SideNavigation'
-}
+  name: "SideNavigation",
+};
 </script>
 
 <style>
-.profile{
-  
-  height:50px;
-  width:80px;
-
+.profile {
+  height: 50px;
+  width: 80px;
 }
 </style>
