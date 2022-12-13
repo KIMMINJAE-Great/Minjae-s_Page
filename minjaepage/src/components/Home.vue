@@ -1,5 +1,6 @@
 <template>
   <h1>{{title}}</h1>
+  <h1>{{message}}</h1>
   <h1>Recent</h1>
   <!-- 추후 뭔가 넣을 곳 -->
   <div class="anything">추후 추가</div>
@@ -13,7 +14,7 @@ export default {
   name: "ToHome",
   setup() {
     const title = ref("Home");
-    return { title };
+    return { title, message : 'Homea' };
   },
 };
 </script>
