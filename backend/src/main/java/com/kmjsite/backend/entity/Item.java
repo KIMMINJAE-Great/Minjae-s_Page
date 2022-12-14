@@ -15,4 +15,13 @@ public class Item {
     
     @Column(length = 50, nullable = false)
     private String name;
+
+    @Column(length = 100)
+    private String imgPath;
+
+    @Column
+    private String price;
+
+    @Column
+    private String discountPer;
 }
