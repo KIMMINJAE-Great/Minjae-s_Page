@@ -9,6 +9,10 @@
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import store from "@/scripts/store";
+import axios from "axios";
+import {watch} from "vue";
+import {useRoute} from "vue-router/dist/vue-router";
 
 
 export default {
@@ -17,7 +21,25 @@ export default {
     Footer,
     Header
 
+  },
+  setup(){
+    const check = () =>{
+      axios.get("/api/account/check").then(({data})=>{
+        //data로 id가 들어온다
+        console.log(data);
+          //Data값이 있으면 data를 넣어주고 없으면 0을 넣음
+          //setAccount로 id가 전달이 되고 data가 true라면 store에 commit
+          store.commit("setAccount",data || 0);
+      })
+    };
+   const route = useRoute();
+
+    watch(route, ()=>{
+      check();
+    })
+
   }
+
 }
 </script>
 
